@@ -1,5 +1,10 @@
 {
-    "student":[
-
-    ]
+  "users": [
+    {
+      "id": "2fd0",
+      "name": "Rohan",
+      "email": "rohan@gamil.com",
+      "pass": "rohan"
+    }
+  ]
 }
