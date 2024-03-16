@@ -12,7 +12,7 @@ export const User = () => {
         .catch((res)=>{
             console.log("Error"+res)
         })
-  })
+  },[])
 
   const [userlist, setUserList] = useState([])
 
