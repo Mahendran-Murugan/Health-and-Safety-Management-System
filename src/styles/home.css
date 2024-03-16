@@ -1,7 +1,7 @@
 .home-container {
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
+    height: 89vh;
 }
 
 .home-container::-webkit-scrollbar {
@@ -9,7 +9,7 @@
 }
 
 .home {
-    height: 100vh;
+    height: 89vh;
     width: 100%;
     display: flex;
     justify-content: center;

@@ -5,6 +5,12 @@
       "name": "Rohan",
       "email": "rohan@gamil.com",
       "pass": "rohan"
+    },
+    {
+      "id": "d12b",
+      "name": "admin",
+      "email": "admin@g.com",
+      "pass": "admin"
     }
   ]
 }
