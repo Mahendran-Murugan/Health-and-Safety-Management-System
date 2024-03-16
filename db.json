@@ -13,5 +13,14 @@
       "pass": "admin"
     }
   ],
-  "user-details": []
+  "user-details": [
+    {
+      "id": "1",
+      "name": "Mahi",
+      "age": "19",
+      "disease": "None",
+      "stage": "None",
+      "image": "https://image.shutterstock.com/image-photo/young-brazilian-man-isolated-on-260nw-2242569333.jpg"
+    }
+  ]
 }

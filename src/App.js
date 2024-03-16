@@ -11,6 +11,7 @@ import { User } from './components/User';
 import { Auth } from './components/Auth';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
+import { Logout } from './components/Logout';
 
 function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/logout" element={<Logout />} />
           <Route path="/user" element={<User />} />
         </Routes>
       </div>

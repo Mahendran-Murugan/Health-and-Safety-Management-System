@@ -21,7 +21,7 @@ export const NavBar = () => {
                     <li className="list item5"><NavLink className="items" to="/user" >User</NavLink></li>
                 </div>
                 {!context.user && <li className="list item6"><NavLink className = "items" to="/login" >Login</NavLink></li>}
-                {context.user && <li className="list item7"><NavLink className = "items" to="/login" >Logout</NavLink></li>}
+                {context.user && <li className="list item7"><NavLink className = "items" to="/logout" >Logout</NavLink></li>}
             </ul>
         </div>
   )
