@@ -12,5 +12,47 @@
       "email": "admin@g.com",
       "pass": "admin"
     }
+  ],
+  "user-details": [
+    {
+      "id": "1",
+      "name": "1",
+      "age": "1",
+      "disease": "1",
+      "stage": "1",
+      "image": "C:\\Users\\admin\\Desktop\\Project\\health-safty-management-system\\src\\assets\\aboutImg.png"
+    },
+    {
+      "id": "2",
+      "name": "Mahendran",
+      "age": "19",
+      "disease": "None",
+      "stage": "None",
+      "image": "Hello"
+    },
+    {
+      "id": "2",
+      "name": "",
+      "age": null,
+      "disease": "",
+      "stage": "",
+      "image": ""
+    },
+    {
+      "id": "2",
+      "name": "Jusvanth",
+      "age": "15",
+      "disease": "None",
+      "stage": "None",
+      "image": "Hello"
+    },
+    {
+      "id": "2",
+      "name": "Jusvanth",
+      "age": "15",
+      "disease": "None",
+      "stage": "None",
+      "image": "Hello"
+    }
   ]
 }

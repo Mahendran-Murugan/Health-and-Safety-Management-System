@@ -10,6 +10,7 @@ import { Admin } from './components/Admin';
 import { User } from './components/User';
 import { Auth } from './components/Auth';
 import { About } from './components/About';
+import { Contact } from './components/Contact';
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,8 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/admin" element={<Admin />} />

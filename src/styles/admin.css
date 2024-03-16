@@ -1,0 +1,80 @@
+.admin-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    max-width: 700px;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.admin-form .subButton {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    max-width: 700px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    margin-bottom: 10px;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.admin-form .subButton:hover {
+    background: #45a049;
+}
+
+.user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-headings th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-headings th:nth-child(1),
+.table-headings th:nth-child(2),
+.table-headings th:nth-child(3) {
+    width: 20%;
+}
+
+.table-headings th:nth-child(4) {
+    width: 20%;
+}
+
+.user-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.user-list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.user-list-table tr:hover {
+    background-color: #ddd;
+}
+
+.admin-user-img{
+    width: 150px;
+    height: 150px;
+}
