@@ -21,7 +21,7 @@ export const User = () => {
     <div className='user-container'>
       {userlist.map(x=>(
         <div className='single-user'>
-        <img className="image-user" alt="user profile" src={img}/>
+        <img className="image-user" alt="user profile" src={x.image}/>
         <h4>Name:{x.name}</h4>
         <h4>Age:{x.age}</h4>
         <h4>Disease:{x.disease}</h4>

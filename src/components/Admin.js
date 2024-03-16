@@ -117,7 +117,7 @@ export const Admin = () => {
                     <td>{x.age}</td>
                     <td>{x.disease}</td>
                     <td>{x.stage}</td>
-                    <td><img alt='user-img' className="admin-user-img" src = {img}/></td>
+                    <td><img alt='user-img' className="admin-user-img" src = {x.image}/></td>
                     <td>
                         <button onClick={()=>{
                             popUpStatus(x)
