@@ -1,6 +1,5 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import img from '../assets/aboutImg.png'
 import '../styles/admin.css'
 
 export const Admin = () => {
