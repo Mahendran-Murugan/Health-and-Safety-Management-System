@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/home.css'
 import homeImg from '../assets/homeImg.png'
 import { About } from './About'
+import { Contact } from './Contact'
 
 export const Home = () => {
   return (
@@ -25,6 +26,7 @@ No Pain.
         </div>
       </section>
       <About />
+      <Contact />
     </div>
   )
 }
