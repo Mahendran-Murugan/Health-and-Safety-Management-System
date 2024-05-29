@@ -1,14 +1,16 @@
 services:
   frontend:
-    build:
-      context: ./Frontend
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Frontend
+    #   dockerfile: Dockerfile
+    image: mahendranmurugan/hsms-fronend
     ports:
       - "3000:3000"
 
   backend:
-    build:
-      context: ./Backend
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Backend
+    #   dockerfile: Dockerfile
+    image: mahendranmurugan/hsms-backend
     ports:
       - "3001:3001"
